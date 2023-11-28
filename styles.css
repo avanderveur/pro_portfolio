@@ -77,3 +77,18 @@ p {
     padding-bottom: 5px;
     margin-bottom: 20px;
 }
+
+/* Interactivity */
+a {
+    color: #007bff;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Smooth scrolling */
+body {
+    scroll-behavior: smooth;
+}
