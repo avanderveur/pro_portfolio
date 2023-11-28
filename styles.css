@@ -37,3 +37,43 @@ h2 {
 p {
     line-height: 1.6;
 }
+
+/* New styles for Projects and Skills sections */
+#projects, #skills, #contact, #misc-projects {
+    margin-top: 40px;
+}
+
+/* Project list style */
+#projects ul, #misc-projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+#projects li, #misc-projects li {
+    margin-bottom: 10px;
+}
+
+/* Skills list style */
+#skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#skills li {
+    margin-right: 20px;
+}
+
+/* Contact info style */
+#contact p {
+    margin: 5px 0;
+}
+
+/* Miscellaneous Projects Section style */
+#misc-projects h2 {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
